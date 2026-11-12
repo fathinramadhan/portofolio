@@ -57,6 +57,23 @@ body {
     color: #000;
 }
 
+@media (max-width: 650px) {
+    .header {
+        padding: 0 5%;
+    }
+
+    .logo {
+        font-size: 19px;
+    }
+
+    .nav {
+        gap: 15px;
+    }
+
+    .nav a {
+        font-size: 10px;
+    }
+}
 
 /* HERO SECTION */
 
@@ -113,6 +130,21 @@ body {
     background: #555;
 }
 
+@media (max-width: 650px) {
+    .hero {
+        min-height: 500px;
+        padding: 100px 6%;
+    }
+
+    .hero h1 {
+        font-size: 38px;
+        letter-spacing: -1px;
+    }
+
+    .description {
+        font-size: 13px;
+    }
+}
 
 /* ABOUT SECTION */
 
@@ -225,23 +257,7 @@ body {
     .about-left h2 {
         font-size: 35px;
     }
-        .header {
-        flex-direction: column;
-        align-items: center;
-        gap: 15px;
-        padding: 20px 15px;
-    }
-
-    .nav {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 12px;
-    }
-
-    .nav a {
-        font-size: 12px;
-    }
+        
 }
 
 
@@ -377,7 +393,9 @@ body {
     background: #ffffff;
     border: 1px solid #e5e5e0;
     padding: 30px;
-    min-height: 300px;
+    min-height: 320px;
+    display: flex;
+    flex-direction: column;
     transition: 0.3s;
 }
 
@@ -504,6 +522,10 @@ body {
     .contact-left h2 {
         font-size: 35px;
     }
+
+    .contact-right a strong {
+        font-size: 11px;
+    }
 }
 
 /* GITHUB PROJECT BUTTON */
@@ -547,6 +569,15 @@ body {
 
 .footer a:hover {
     color: #888;
+}
+
+@media (max-width: 550px) {
+    .footer {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+        padding: 25px 6%;
+    }
 }
 
 /* ANIMATION */
