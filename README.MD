@@ -1,18 +1,19 @@
-# Fathin Ramadhan — Personal Portfolio
+
+# Fathin Ramadhan | Portfolio
 
 Welcome to my personal portfolio repository.
 
-This website showcases my background, skills, and selected projects in Information Systems, UI/UX Design, and Software Development.
+This repository contains my personal portfolio website, showcasing my background, technical skills, and selected projects in Information Systems, Software Development, UI/UX Design, and Data Analytics.
 
 ## About Me
 
-I am an Information Systems student at Gunadarma University with an interest in technology, software development, and user interface and user experience design.
+I am an Information Systems student at Gunadarma University with an interest in technology, software development, UI/UX design, and data analytics.
 
-I enjoy exploring new technologies, developing digital solutions, and working on creative projects.
+I enjoy exploring new technologies, developing digital solutions, and creating user-centered designs through academic and personal projects.
 
-## Skills
+## Skills & Expertise
 
-**Programming & Web Development**
+### Software Development
 - HTML
 - CSS
 - JavaScript
@@ -20,17 +21,28 @@ I enjoy exploring new technologies, developing digital solutions, and working on
 - Python
 - SQL
 
-**UI/UX & Design**
+### UI/UX Design
 - Figma
+- Wireframing
+- Prototyping
+- Design Thinking
 - Adobe Photoshop
 - Adobe Illustrator
 - Canva
 - Adobe Lightroom
 
-**Database & Tools**
+### Data Analytics
+- Python
+- Pandas
+- SQL
+- Power BI
+- Tableau
+
+### Database & Development Tools
 - MySQL
 - Visual Studio Code
-- Git & GitHub
+- Git
+- GitHub
 
 ## Featured Projects
 
@@ -45,9 +57,10 @@ An academic research project focused on developing a web-based employee attendan
 - LBPH
 - MySQL
 - NumPy
-- HTML & CSS
+- HTML
+- CSS
 
-[View on GitHub](https://github.com/fathinramadhan/presensi-tsp-face-recognition)
+[View Project on GitHub](https://github.com/fathinramadhan/presensi-tsp-face-recognition)
 
 ### 2. Konserin — Concert Ticket Booking App
 
@@ -71,6 +84,10 @@ This portfolio website is built using:
 - HTML5
 - CSS3
 - JavaScript
+
+## Live Website
+
+[Visit My Portfolio](https://fathinramadhan.github.io/portofolio/)
 
 ## Contact
 
