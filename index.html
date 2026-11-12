@@ -16,6 +16,8 @@
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" type="image/png" href="assets/favicon.png">
+
+<meta name="google-site-verification" content="JVlPHswh1flZRFhfmNOQePctR6pr0FMvLv3KlDkwXk0" />
 </head>
 <body>
 
@@ -29,6 +31,10 @@
         <a href="#projects">Proyek</a>
         <a href="#contact">Kontak</a>
     </nav>
+
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+        ☾
+    </button>
 </header>
 
 <section class="hero" id="home">
@@ -186,8 +192,14 @@
 
     <h2>Proyek Pilihan.</h2>
 
-    <div class="project-card">
+    <div class="project-filters">
+    <button class="filter-btn active" data-filter="all">Semua</button>
+    <button class="filter-btn" data-filter="web">Web Development</button>
+    <button class="filter-btn" data-filter="uiux">UI/UX Design</button>
+    
+</div>
 
+    <div class="project-card" data-category="web">
         <div class="project-image">
             <img src="assets/presensi-berhasil.png"
                  alt="Sistem presensi LBPH">
@@ -229,8 +241,7 @@
 </div>
 </div>
 
-<div class="project-card">
-
+<div class="project-card" data-category="uiux">
     <div class="project-image">
         <img src="assets/konserin.png"
      alt="Konserin UI UX Design"
@@ -275,7 +286,6 @@
         </div>
 </section>
 
-
 <section class="contact" id="contact">
 
     <p class="contact-label">05 / HUBUNGI SAYA</p>
@@ -299,6 +309,7 @@
                 <strong>fathinr26@gmail.com ↗</strong>
             </a>
 
+
             <a href="https://wa.me/6281808615292" target="_blank">
                 <span>WHATSAPP</span>
                 <strong>0818-0861-5292 ↗</strong>
@@ -315,9 +326,9 @@
             </a>
 
             <a href="https://github.com/fathinramadhan" target="_blank">
-    <span>GITHUB</span>
-    <strong>fathinramadhan ↗</strong>
-</a>
+                <span>GITHUB</span>
+                <strong>fathinramadhan ↗</strong>
+            </a>
 
         </div>
 
